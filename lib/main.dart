@@ -11,14 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
-      home:  MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({ Key? key }) : super(key: key);
+  const MyHomePage({Key? key}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -29,8 +28,12 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Currency App'),
+        backgroundColor:Colors.black,
+                // ignore: prefer_const_constructors
+        title: Text('Currency App' , style: TextStyle(color: Colors.white , fontSize: 22 , fontWeight: FontWeight.bold),),
       ),
-    )
+    );
   }
 }
+
+
