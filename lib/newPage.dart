@@ -13,8 +13,12 @@ class NewPage extends StatefulWidget {
 class _NewPageState extends State<NewPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[400],
+        // ignore: prefer_const_constructors
+        title: Text('New Page' , style: TextStyle(color: Colors.white , fontSize: 20 , fontWeight: FontWeight.bold),),
+      ),
     );
   }
 }

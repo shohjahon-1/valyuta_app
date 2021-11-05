@@ -28,7 +28,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor:Colors.black,
+        leading: Icon(Icons.menu),
+        backgroundColor:Colors.blue[200],
                 // ignore: prefer_const_constructors
         title: Text('Currency App' , style: TextStyle(color: Colors.white , fontSize: 22 , fontWeight: FontWeight.bold),),
       ),
