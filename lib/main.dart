@@ -37,26 +37,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-///snifnsfnfnuwafuif'dch
-///h
-///rtear
-///gs
-///e
-///w
-///d
-///tir
-///6ruy
-///g
-///y6
-///5ru
-///y
-///r
-///6dj
-///h
-///5
-///r6dh
-///f
-///
-///
-///HECH BALO YOQ
-///
