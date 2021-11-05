@@ -121,4 +121,11 @@ class _MyHomePageState extends State<MyHomePage> {
 ///5
 ///r6dh
 ///f
+// <<<<<<< HEAD
 // >>>>>>> refs/remotes/origin/master
+// =======
+///
+///
+///HECH BALO YOQ
+///
+// >>>>>>> 7a638345afd29e7adceb57bd547dd00cbfbe0aad
