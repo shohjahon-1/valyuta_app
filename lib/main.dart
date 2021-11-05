@@ -1,7 +1,4 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
-import 'newPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +11,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: MyHomePage(),
     );
   }
@@ -32,24 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: GestureDetector(
-            onTap: () {
-              setState(() {
-                Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => NewPage()),
-  );
-
-              });
-            },
-            child: Icon(Icons.menu)),
-        backgroundColor: Colors.blue[200],
-        // ignore: prefer_const_constructors
-        title: Text(
-          'Currency App',
-          style: TextStyle(
-              color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
-        ),
+        title: Text('Currency App'),
       ),
     );
   }
