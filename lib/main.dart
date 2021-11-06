@@ -55,23 +55,14 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           children: [
-            // TextButton(
-            //   child: Text('Get'),
-            //   onPressed: () {
-            //     // setState(() {
-            //     getResponse();
-            //     // });
-            //   },
-            // ),
+            
             Expanded(
               child: ListView.builder(
                 itemCount: json.length ?? 0,
                 itemBuilder: (context, index) {
                   return Column(
                     children: [
-                      // DropdownButton(items: List<DropdownMenuItem<dynamic>> [
-                      //   json[index]['code'],
-                      // ]),
+                      
                       ListTile(
                         leading: Flag.fromString(
                           json[index]['code'],
@@ -84,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   );
-                },
+                }
               ),
             )
           ],
@@ -96,36 +87,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
-
-/// bordimi
-/// 
-/// bordimi
-// =======
-///snifnsfnfnuwafuif'dch
-///h
-///rtear
-///gs
-///e
-///w
-///d
-///tir
-///6ruy
-///g
-///y6
-///5ru
-///y
-///r
-///6dj
-///h
-///5
-///r6dh
-///f
-// <<<<<<< HEAD
-// >>>>>>> refs/remotes/origin/master
-// =======
-///
-///
-///HECH BALO YOQ
-///
-// >>>>>>> 7a638345afd29e7adceb57bd547dd00cbfb
