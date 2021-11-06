@@ -1,7 +1,9 @@
+// ignore_for_file: unnecessary_this
+
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:flag/flag.dart';
+// import 'package:flag/flag.dart';
 
 // ignore_for_file: prefer_const_constructors, duplicate_ignore
 
@@ -36,6 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
     getResponse();
@@ -55,21 +58,20 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           children: [
-            
+            Text('Salom hammaga'),
             Expanded(
               child: ListView.builder(
                 itemCount: json.length ?? 0,
                 itemBuilder: (context, index) {
                   return Column(
                     children: [
-                      
                       ListTile(
-                        leading: Flag.fromString(
-                          json[index]['code'],
-                          height: 10,
-                          width: 100,
-                          fit: BoxFit.fill,
-                        ),
+                        // leading: Flag.fromString(
+                        //   json[index]['code'],
+                        //   height: 10,
+                        //   width: 100,
+                        //   fit: BoxFit.fill,
+                        // ),
                         title: Text(json[index]['title'].toString()),
                         subtitle: Text(json[index]['cb_price'] + "so'm"),
                       ),
